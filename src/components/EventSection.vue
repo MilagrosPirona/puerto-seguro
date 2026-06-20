@@ -95,9 +95,10 @@ const filterList = computed(() => {
         Ver calendario completo
       </button>
     </div>
-    <div>
-      class="w-full flex justify-center items-center text-deep-blue dark:text-white uppercase
-      bg-white/30 dark:bg-white/5 pt-20 rounded-2xl shadow-xl" v-if="filterList.length == 0" >
+    <div
+      class="w-full flex justify-center items-center text-deep-blue dark:text-white uppercase bg-white/30 dark:bg-white/5 pt-20 rounded-2xl shadow-xl"
+      v-if="filterList.length == 0"
+    >
       <h2 class="text-deep-blue dark:text-white text-4xl font-bold mb-2">
         Estamos preparando los proximos grandes momentos .¡Vuelve pronto.!
       </h2>
