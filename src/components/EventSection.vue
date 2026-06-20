@@ -96,7 +96,7 @@ const filterList = computed(() => {
       </button>
     </div>
     <div
-      class="w-full flex justify-center items-center text-deep-blue dark:text-white uppercase bg-white/30 dark:bg-white/5 pt-20 rounded-2xl shadow-xl"
+      class="w-full flex justify-center items-center text-deep-blue dark:text-white uppercase bg-white/30 dark:bg-white/5 pt-20 pb-20 rounded-2xl shadow-xl"
       v-if="filterList.length == 0"
     >
       <h2>Estamos preparando los proximos grandes momentos .¡Vuelve pronto.!</h2>
