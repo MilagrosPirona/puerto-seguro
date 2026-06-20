@@ -48,7 +48,7 @@ function saveEvent() {
     end_datetime: formatDate(newEvent.value.end),
   }
   http
-    .post('/events', event)
+    .post('/events/', event)
     .then((response) => {
       auxCreatFn.value(newEvent.value)
       isOpen.value = false
@@ -129,7 +129,7 @@ function cancelEvent() {
 
 function getEvents() {
   http
-    .get('/events')
+    .get('/events/')
     .then((response) => {
       events.value = response.data.map((events) => {
         return {
